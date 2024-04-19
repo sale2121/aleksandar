@@ -1,0 +1,312 @@
+@media screen and (max-width: 600px) {
+  #about .about {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+  #about .about .about_block1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  #about .about .about_block1 .img {
+    display: flex;
+    justify-content: center;
+  }
+  #about .about .about_block2 {
+    width: 95%;
+    display: flex;
+    justify-content: center;
+  }
+  #services_blocks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #services_blocks .services_center #services_blocks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #services_blocks .services_center #services_blocks .service_block {
+    width: 40%;
+  }
+  #services_blocks .services_center #services_blocks .service_block p {
+    font-size: 12px;
+  }
+  nav li a {
+    text-decoration: none;
+    color: #1a2239;
+    font-size: 20px;
+  }
+  #cover #main h1 {
+    font-size: 40px;
+  }
+  #contact .contact_block {
+    flex-wrap: wrap;
+  }
+  #contact .contact_block .form {
+    width: 100%;
+  }
+  #contact .contact_block .info {
+    width: 100%;
+  }
+  #contact .contact_block .info .info_block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 920px) {
+  nav li a {
+    text-decoration: none;
+    color: #1a2239;
+    font-size: 20px;
+  }
+  header {
+    display: flex;
+    flex-direction: column;
+  }
+  header .center1 {
+    width: 90%;
+  }
+  header .center1 nav {
+    width: 100%;
+    text-align: center;
+  }
+  header .center1 nav ul li {
+    display: block;
+    text-align: center;
+    font-size: 28px;
+  }
+  header .center1 #logo {
+    width: 100%;
+    text-align: center;
+  }
+  #cover {
+    background-size: 100%;
+  }
+  #page {
+    width: 100%;
+    margin: 0px auto;
+  }
+  #page #about .about {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+  #page #about .about .about_block1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  #page #about .about .about_block1 .img {
+    display: flex;
+    justify-content: center;
+  }
+  #page #about .about .about_block2 {
+    width: 95%;
+    display: flex;
+    justify-content: center;
+  }
+  #services {
+    margin-top: 100px;
+  }
+  #services .services_center #services_blocks {
+    width: 100%;
+  }
+  #services .services_center #services_blocks .service_block {
+    width: 22%;
+  }
+  #services .services_center #services_blocks .service_block p {
+    font-size: 12px;
+  }
+  #services .services_center #services_blocks .service_block h3 {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 480px) {
+  nav li a {
+    text-decoration: none;
+    color: #1a2239;
+    font-size: 20px;
+  }
+  .title {
+    font-size: 28px;
+  }
+  #cover #main h1 {
+    font-size: 24px;
+  }
+  #page {
+    width: 100%;
+  }
+  #page #about {
+    margin-top: 100px;
+  }
+  #page #about .about {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+  #page #about .about .about_block1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  #page #about .about .about_block1 .img {
+    display: flex;
+    justify-content: center;
+  }
+  #page #about .about .about_block1 .img img {
+    width: 220px;
+    height: 320px;
+  }
+  #page #about .about .about_block2 {
+    width: 95%;
+    display: flex;
+    justify-content: center;
+  }
+  #page #about .about .about_block2 .about_info2 {
+    font-size: 18px;
+  }
+  header .center1 {
+    width: 100%;
+  }
+  header nav {
+    width: 100%;
+  }
+  header nav ul li {
+    display: block;
+    margin-bottom: 4px;
+    text-align: center;
+  }
+  #contact {
+    margin-top: 100px;
+  }
+  #contact .contact_block .info .info-block .info1 {
+    font-size: 15px;
+  }
+  #projects {
+    margin-top: 100px;
+  }
+  #projects .projects {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #projects .projects .project {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+  #services {
+    margin-top: 100px;
+  }
+  #services .services_center #services_blocks {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  #services .services_center #services_blocks .service_block {
+    width: 60%;
+  }
+  #services .services_center #services_blocks .service_block p {
+    font-size: 12px;
+  }
+  #services .services_center #services_blocks .service_block h3 {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 600px) {
+  #services {
+    margin-top: 100px;
+  }
+  #services .services_center #services_blocks {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  #services .services_center #services_blocks .service_block {
+    width: 60%;
+  }
+  #services .services_center #services_blocks .service_block p {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 680px) {
+  #services .services_center #services_blocks {
+    display: flex;
+    text-align: center;
+  }
+  #services .services_center #services_blocks .service_block p {
+    font-size: 12px;
+  }
+  #services .services_center #services_blocks .service_block h3 {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 1528px) {
+  #page {
+    width: 100%;
+  }
+  .center1 {
+    width: 85%;
+  }
+}
+@media screen and (max-width: 200px) {
+  #services .services_center #services_blocks .service_block {
+    width: 40%;
+  }
+  #services .services_center #services_blocks .service_block p {
+    font-size: 8px;
+  }
+  #services .services_center #services_blocks .service_block h3 {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 360px) {
+  #services {
+    margin-top: 100px;
+  }
+  #services .services_center #services_blocks {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  #services .services_center #services_blocks .service_block {
+    width: 40%;
+  }
+  #services .services_center #services_blocks .service_block p {
+    font-size: 10px;
+  }
+  #services .services_center #services_blocks .service_block h3 {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 260px) {
+  #page #about .about .about_block1 .img {
+    display: flex;
+    justify-content: center;
+  }
+  #page #about .about .about_block1 .img img {
+    width: 160px;
+    height: 260px;
+  }
+  #page #about .about .about_block2 .about_info2 h3 {
+    font-size: 12px;
+  }
+  #page #about .about .about_block2 .about_info2 p {
+    font-size: 10px;
+  }
+  #services .services_center #services_blocks .service_block p {
+    font-size: 9px;
+  }
+  #services .services_center #services_blocks .service_block h3 {
+    font-size: 8px;
+  }
+  #cover #main h1 {
+    font-size: 26px;
+  }
+  #cover #main #btn a {
+    padding: 1vh;
+  }
+}/*# sourceMappingURL=responsive.css.map */

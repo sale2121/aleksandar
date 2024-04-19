@@ -1,0 +1,19 @@
+@mixin position($jc:center,$ai:center){
+	display:flex;
+	justify-content: $jc;
+	align-items: $ai;
+}
+@mixin inputstyle(){
+	width: 100%;
+	padding: 6px;
+	margin-bottom: 20px;
+	font-size: 12px;
+}
+@mixin btn(){
+	background-color: #1e1f25;
+	color: #ffffff;
+	letter-spacing: 2px;
+	font-size: 2vh;
+	border-radius: 20px;
+	padding: 2vh;
+}
